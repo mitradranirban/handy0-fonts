@@ -3,18 +3,18 @@
 # Handy0 
 ## Rounded Handwriting Latin font
 
-[![][Fontbakery]](https://mitradranirban.github.io/handy0-fonts.git/fontbakery/fontbakery-report.html)
-[![][Universal]](https://mitradranirban.github.io/handy0-fonts.git/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://mitradranirban.github.io/handy0-fonts.git/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://mitradranirban.github.io/handy0-fonts.git/fontbakery/fontbakery-report.html)
+[![][Fontbakery]](https://mitradranirban.github.io/handy0-fonts/fontbakery/fontbakery-report.html)
+[![][Universal]](https://mitradranirban.github.io/handy0-fonts/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://mitradranirban.github.io/handy0-fonts/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://mitradranirban.github.io/handy0-fonts/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fhandy0-fonts.git%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fhandy0-fonts.git%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fhandy0-fonts.git%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fhandy0-fonts.git%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fhandy0-fonts.git%2Fgh-pages%2Fbadges%2FUniversal.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fhandy0-fonts%2Fgh-pages%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fhandy0-fonts%2Fgh-pages%2Fbadges%2FGoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fhandy0-fonts%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fhandy0-fonts%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fhandy0-fonts%2Fgh-pages%2Fbadges%2FUniversal.json
 
- It is created as an expericment to creat a Latin font without a straight line as far as possible with a handwriitng pattern
+ It is created as an experiment to create a Latin font without a straight line as far as possible with a handwriitng pattern
 
 ![Sample Image](documentation/image1.png)
 ![Sample Image](documentation/image2.png)

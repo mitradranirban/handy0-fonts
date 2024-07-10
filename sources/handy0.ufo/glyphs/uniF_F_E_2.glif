@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFFE2" format="2">
+  <advance width="1397"/>
+  <unicode hex="FFE2"/>
+  <outline>
+    <component base="logicalnot"/>
+  </outline>
+</glyph>

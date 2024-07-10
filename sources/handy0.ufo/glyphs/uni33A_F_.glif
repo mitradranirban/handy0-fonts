@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni33AF" format="2">
+  <advance width="5455"/>
+  <unicode hex="33AF"/>
+  <outline>
+    <component base="uni00B2" xOffset="4620"/>
+    <component base="s" xOffset="3984"/>
+    <component base="uni2215" xOffset="2584"/>
+    <component base="d" xOffset="1642"/>
+    <component base="a" xOffset="692"/>
+    <component base="r"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni24AB" format="2">
+  <advance width="3136"/>
+  <unicode hex="24AB"/>
+  <outline>
+    <component base="parenright" xOffset="2039"/>
+    <component base="p" xOffset="1097"/>
+    <component base="parenleft"/>
+  </outline>
+</glyph>

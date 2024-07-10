@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni338E" format="2">
+  <advance width="1883"/>
+  <unicode hex="338E"/>
+  <outline>
+    <component base="g" xOffset="1191"/>
+    <component base="m"/>
+  </outline>
+</glyph>

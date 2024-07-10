@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni33D8" format="2">
+  <advance width="2681"/>
+  <unicode hex="33D8"/>
+  <outline>
+    <component base="period" xOffset="2407"/>
+    <component base="m" xOffset="1216"/>
+    <component base="period" xOffset="942"/>
+    <component base="p"/>
+  </outline>
+</glyph>

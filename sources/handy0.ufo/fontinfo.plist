@@ -29,7 +29,7 @@
     <key>openTypeHeadCreated</key>
     <string>2024/07/08 06:48:34</string>
     <key>openTypeHheaAscender</key>
-    <integer>2094</integer>
+    <integer>4546</integer>
     <key>openTypeHheaDescender</key>
     <integer>-481</integer>
     <key>openTypeHheaLineGap</key>
@@ -151,7 +151,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>openTypeOS2TypoLineGap</key>
     <integer>377</integer>
     <key>openTypeOS2WinAscent</key>
-    <integer>2094</integer>
+    <integer>4546</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>481</integer>
     <key>postscriptFontName</key>

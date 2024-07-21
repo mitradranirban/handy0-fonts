@@ -846,5 +846,9 @@
     <string>uni2C_7D_.glif</string>
     <key>uniFEFF</key>
     <string>uniF_E_F_F_.glif</string>
+    <key>Jacute</key>
+    <string>J_acute.glif</string>
+    <key>jacute</key>
+    <string>jacute.glif</string>
   </dict>
 </plist>

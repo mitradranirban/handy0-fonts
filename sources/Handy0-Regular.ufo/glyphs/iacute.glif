@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iacute" format="2">
-  <advance width="810"/>
+  <advance width="405"/>
   <unicode hex="00ED"/>
   <outline>
-    <component base="acutecomb" xOffset="598" yOffset="-498"/>
+    <component base="acutecomb" xOffset="299" yOffset="-249"/>
     <component base="dotlessi"/>
   </outline>
   <lib>
@@ -14,36 +14,36 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>1630</integer>
+            <integer>815</integer>
             <key>width</key>
-            <integer>20</integer>
+            <integer>10</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1762</integer>
+            <integer>881</integer>
             <key>width</key>
-            <integer>452</integer>
+            <integer>226</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>156</integer>
+            <integer>78</integer>
             <key>width</key>
-            <integer>200</integer>
+            <integer>100</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>308</integer>
+            <integer>154</integer>
             <key>width</key>
-            <integer>208</integer>
+            <integer>104</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>430</integer>
+            <integer>215</integer>
             <key>width</key>
-            <integer>222</integer>
+            <integer>111</integer>
           </dict>
         </array>
       </dict>

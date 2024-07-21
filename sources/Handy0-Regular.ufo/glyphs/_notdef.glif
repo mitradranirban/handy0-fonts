@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name=".notdef" format="2">
-  <advance width="1497"/>
+  <advance width="748"/>
   <outline>
     <contour>
-      <point x="136" y="0" type="line"/>
-      <point x="136" y="2730" type="line"/>
-      <point x="1225" y="2730" type="line"/>
-      <point x="1225" y="0" type="line"/>
+      <point x="68" y="0" type="line"/>
+      <point x="68" y="1365" type="line"/>
+      <point x="612" y="1365" type="line"/>
+      <point x="612" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="272" y="136" type="line"/>
-      <point x="1089" y="136" type="line"/>
-      <point x="1089" y="2594" type="line"/>
-      <point x="272" y="2594" type="line"/>
+      <point x="136" y="68" type="line"/>
+      <point x="544" y="68" type="line"/>
+      <point x="544" y="1297" type="line"/>
+      <point x="136" y="1297" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -25,28 +25,28 @@
             <key>position</key>
             <integer>0</integer>
             <key>width</key>
-            <integer>136</integer>
+            <integer>68</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>2594</integer>
+            <integer>1297</integer>
             <key>width</key>
-            <integer>136</integer>
+            <integer>68</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>136</integer>
+            <integer>68</integer>
             <key>width</key>
-            <integer>136</integer>
+            <integer>68</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1089</integer>
+            <integer>544</integer>
             <key>width</key>
-            <integer>136</integer>
+            <integer>68</integer>
           </dict>
         </array>
       </dict>

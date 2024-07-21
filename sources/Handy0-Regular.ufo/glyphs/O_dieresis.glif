@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Odieresis" format="2">
-  <advance width="2694"/>
+  <advance width="1347"/>
   <unicode hex="00D6"/>
   <outline>
-    <component base="uni0308" xOffset="1424" yOffset="597"/>
+    <component base="uni0308" xOffset="712" yOffset="298"/>
     <component base="O"/>
   </outline>
 </glyph>

@@ -28,7 +28,7 @@ feature liga {
 
 lookup kernHorizontalKerninginLatinlookup0 {
   lookupflag 0;
-    pos \f \t -414;
+    pos \f \t -207;
 } kernHorizontalKerninginLatinlookup0;
 
 feature kern {
@@ -80,12 +80,11 @@ feature kern {
 	\uni021B \uni021E \uni021F \uni0237 \uni02B6 \uni02BC \circumflex \caron \breve 
 	\dotaccent \ring \ogonek \tilde \hungarumlaut \gravecomb \acutecomb \uni0302 
 	\tildecomb \uni0304 \uni0306 \uni0307 \uni0308 \hookabovecomb \uni030A \uni030B 
-	\uni030C \uni0326 \uni0327 \uni0328 \uni06D4 \Wgrave \wgrave \Wacute \wacute 
-	\Wdieresis \wdieresis \uni1E9E \Ygrave \ygrave \uni1FED \uni1FEF \endash \emdash 
-	\quoteleft \quoteright \quotesinglbase \quotedblleft \quotedblright 
-	\quotedblbase \bullet \ellipsis \guilsinglleft \guilsinglright \uni20A8 \Euro 
-	\trademark \minus \uni226A \uni226B \dotmath \openbullet \uni2C7C \uni2C7D 
-	\uniFEFF ];
+	\uni030C \uni0326 \uni0327 \uni0328 \Wgrave \wgrave \Wacute \wacute \Wdieresis 
+	\wdieresis \uni1E9E \Ygrave \ygrave \uni1FED \uni1FEF \endash \emdash \quoteleft 
+	\quoteright \quotesinglbase \quotedblleft \quotedblright \quotedblbase 
+	\bullet \ellipsis \guilsinglleft \guilsinglright \uni20A8 \Euro \trademark 
+	\minus \uni226A \uni226B \dotmath \openbullet \uni2C7C \uni2C7D ];
 @GDEF_Ligature = [\iacute \Jacute \jacute ];
 
 table GDEF {

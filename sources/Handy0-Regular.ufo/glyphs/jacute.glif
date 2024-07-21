@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jacute" format="2">
-  <advance width="1384"/>
+  <advance width="692"/>
   <outline>
-    <component base="acutecomb" xOffset="427" yOffset="140"/>
+    <component base="acutecomb" xOffset="214" yOffset="70"/>
     <component base="j"/>
   </outline>
 </glyph>

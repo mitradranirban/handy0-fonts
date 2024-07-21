@@ -21,8 +21,8 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Font does not contain a GSUB table.</p>
- [code: missing-gsub-table]
+* 🔥 **FAIL** <p>'smcp' or 'liga' lookups not found in GSUB table.</p>
+ [code: missing-lookups]
 
 
 
@@ -56,31 +56,8 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[20] Handy0-Regular.ttf</summary>
+<details><summary>[18] Handy0-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 4864, but got 3276 instead</p>
- [code: ascent]
-
-
-
-* 🔥 **FAIL** <p>OS/2.usWinDescent value should be equal or greater than 1155, but got 820 instead</p>
- [code: descent]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Do we have the latest version of FontBakery installed? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.fontbakery.html#"></a></summary>
     <div>
@@ -93,42 +70,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 * 🔥 **FAIL** <p>Current FontBakery version is 0.12.8, while a newer 0.12.9 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Shaper didn't attach acutecomb to j</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to J</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
 
 
 
@@ -227,24 +168,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 * 🔥 **FAIL** <p>Font em size (unitsPerEm) is 4096 which may be too large (causing filesize bloat), unless you are sure that the detail level in this font requires that much precision.</p>
  [code: large-value]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 4096 when it should be at least 4915</p>
- [code: bad-hhea-range]
 
 
 
@@ -639,27 +562,6 @@ acutecomb (U+0301), gravecomb (U+0300), hookabovecomb (U+0309), tildecomb (U+030
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The most common width is 1702 among a set of 8 math glyphs.
-The following math glyphs have a different width, though:</p>
-<p>Width = 2794:
-logicalnot</p>
- [code: width-outliers]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
     <div>
 
@@ -780,8 +682,6 @@ logicalnot</p>
 
 * Scircumflex (U+015C): X=926.0,Y=2866.0 (should be at cap-height 2868?)
 
-* X (U+0058): X=-86.0,Y=3275.0 (should be at ascender 3276?)
-
 * Z (U+005A): X=1942.0,Y=2870.0 (should be at cap-height 2868?)
 
 * Zacute (U+0179): X=1942.0,Y=2870.0 (should be at cap-height 2868?)
@@ -798,10 +698,6 @@ logicalnot</p>
 
 * degree (U+00B0): X=660.0,Y=2867.0 (should be at cap-height 2868?)
 
-* iogonek (U+012F): X=307.0,Y=-819.0 (should be at descender -820?)
-
-* lacute (U+013A): X=842.0,Y=3278.0 (should be at ascender 3276?)
-
 * nine (U+0039): X=1101.0,Y=-2.0 (should be at baseline 0?)
 
 * nine (U+0039): X=1368.0,Y=2866.0 (should be at cap-height 2868?)
@@ -809,8 +705,6 @@ logicalnot</p>
 * ogonek (U+02DB): X=-7.0,Y=1.0 (should be at baseline 0?)
 
 * openbullet (U+25E6): X=660.0,Y=2867.0 (should be at cap-height 2868?)
-
-* parenleft (U+0028): X=1542.0,Y=-822.0 (should be at descender -820?)
 
 * parenright (U+0029): X=1059.0,Y=2870.0 (should be at cap-height 2868?)
 
@@ -823,12 +717,6 @@ logicalnot</p>
 * trademark (U+2122): X=-1400.0,Y=2869.0 (should be at cap-height 2868?)
 
 * underscore (U+005F): X=-102.0,Y=2.0 (should be at baseline 0?)
-
-* uni0136 (U+0136): X=120.0,Y=-822.0 (should be at descender -820?)
-
-* uni0156 (U+0156): X=339.0,Y=-819.0 (should be at descender -820?)
-
-* uni0163 (U+0163): X=1310.0,Y=-822.0 (should be at descender -820?)
 
 * uni01CD (U+01CD): X=269.0,Y=2.0 (should be at baseline 0?)
 
@@ -995,10 +883,10 @@ logicalnot</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ỉ i̦̇ ỉ̦ i̦̊ i̦̋ i̧̇ ỉ̧ i̧̊ i̧̋ j̆ j̇ j̉ j̊ j̋ j̦̀ j̦́ j̦̃ j̦̄ j̦̆</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Cicipu (Latn, 44,000 speakers), Ejagham (Latn, 120,000 speakers), Sar (Latn, 500,000 speakers), Kom (Latn, 360,685 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Ebira (Latn, 2,200,000 speakers), Mfumte (Latn, 79,000 speakers), Southern Kisi (Latn, 360,000 speakers), Dii (Latn, 71,000 speakers), South Central Banda (Latn, 244,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers), Fur (Latn, 1,230,163 speakers), Mango (Latn, 77,000 speakers), Bafut (Latn, 158,146 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Makaa (Latn, 221,000 speakers), Koonzime (Latn, 40,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Nzakara (Latn, 50,000 speakers), Gulay (Latn, 250,478 speakers), Ekpeye (Latn, 226,000 speakers), Nateni (Latn, 100,000 speakers), Yala (Latn, 200,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Vute (Latn, 21,000 speakers), Mundani (Latn, 34,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers), Dan (Latn, 1,099,244 speakers), Lugbara (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Sar (Latn, 500,000 speakers), Dii (Latn, 71,000 speakers), Vute (Latn, 21,000 speakers), Ma’di (Latn, 584,000 speakers), Basaa (Latn, 332,940 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), South Central Banda (Latn, 244,000 speakers), Nzakara (Latn, 50,000 speakers), Fur (Latn, 1,230,163 speakers), Ngbaka (Latn, 1,020,000 speakers), Gulay (Latn, 250,478 speakers), Mfumte (Latn, 79,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Ejagham (Latn, 120,000 speakers), Southern Kisi (Latn, 360,000 speakers), Makaa (Latn, 221,000 speakers), Dan (Latn, 1,099,244 speakers), Mango (Latn, 77,000 speakers), Igbo (Latn, 27,823,640 speakers), Nateni (Latn, 100,000 speakers), Yala (Latn, 200,000 speakers), Navajo (Latn, 166,319 speakers), Mundani (Latn, 34,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Cicipu (Latn, 44,000 speakers), Koonzime (Latn, 40,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Bafut (Latn, 158,146 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Kom (Latn, 360,685 speakers), Zapotec (Latn, 490,000 speakers), Avokaya (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1023,21 +911,21 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+02B6 MODIFIER LETTER SMALL CAPITAL INVERTED R: not included in any glyphset definition</li>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, math, coptic, tifinagh, syriac, old-permic, malayalam, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, canadian-aboriginal, malayalam, syriac, coptic, old-permic, tai-le</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: hanifi-rohingya, arabic, yezidi</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, yezidi, hanifi-rohingya</li>
 <li>U+226A MUCH LESS-THAN: try adding math</li>
 <li>U+226B MUCH GREATER-THAN: try adding math</li>
 <li>U+22C5 DOT OPERATOR: try adding one of: math, symbols</li>
@@ -1045,6 +933,48 @@ definitions.</p>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>greek-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- J + acutecomb
+
+- i + acutecomb
+
+- j + acutecomb
+</code></pre>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
 
 
 
@@ -1079,8 +1009,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>OS/2 VendorID is 'PfEd', a font editor default. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
- [code: bad]
+* ⚠️ **WARN** <p>OS/2 VendorID value 'anir' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
+ [code: unknown]
 
 
 
@@ -1118,8 +1048,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 9 | 14 | 118 | 7 | 103 | 0 | 
-| 0% | 0% | 4% | 6% | 47% | 3% | 41% | 0% | 
+| 0 | 0 | 6 | 15 | 116 | 7 | 107 | 0 | 
+| 0% | 0% | 2% | 6% | 46% | 3% | 43% | 0% | 
 
 
 

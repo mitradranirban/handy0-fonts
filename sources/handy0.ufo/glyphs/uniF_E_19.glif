@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniFE19" format="2">
-  <advance width="822"/>
-  <unicode hex="FE19"/>
-  <outline>
-    <component base="ellipsis"/>
-  </outline>
-</glyph>

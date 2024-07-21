@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni248B" format="2">
-  <advance width="1470"/>
-  <unicode hex="248B"/>
-  <outline>
-    <component base="period" xOffset="1196"/>
-    <component base="four"/>
-  </outline>
-</glyph>

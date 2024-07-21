@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniFF3E" format="2">
-  <advance width="851"/>
-  <unicode hex="FF3E"/>
-  <outline>
-    <component base="asciicircum"/>
-  </outline>
-</glyph>

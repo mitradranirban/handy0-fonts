@@ -7,7 +7,7 @@
 # sources/ directory, so all paths should be relative to that
 # directory.
 sources:
-  - handy0.ufo
+  - Handy0-Regular.ufo
 # You don't have to supply the family name, but builds are slightly
 # faster if you do.
 familyName: "Handy0"
@@ -25,14 +25,14 @@ outputDir: ../fonts
 # The following entries, which are either "true" or "false"
 # determine which targets to build. We turn off OTFs for this demo.
 
-buildVariable: true
+# buildVariable: true
 # buildStatic: true
-#buildTTF: true
+buildTTF: true
 #buildOTF: false
 # buildSmallCap: false
 
 # The next flags control autohinting.
-# autohintTTF: true
+autohintTTF: true
 # autohintOTF: false
 # ttfaUseScript: false  # Set this to true if your font is not Latin
 
@@ -49,7 +49,7 @@ buildVariable: true
 # overlaps: booleanOperations
 # expandFeaturesToInstances: false
 # reverseOutlineDirection: true
-removeOutlineOverlaps: false
+# removeOutlineOverlaps: false
 # extraFontmakeArgs: ""
 # extraVariableFontmakeArgs: ""
 # extraStaticFontmakeArgs: ""

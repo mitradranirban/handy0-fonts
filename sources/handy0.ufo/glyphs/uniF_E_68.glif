@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniFE68" format="2">
-  <advance width="1400"/>
-  <unicode hex="FE68"/>
-  <outline>
-    <component base="backslash"/>
-  </outline>
-</glyph>

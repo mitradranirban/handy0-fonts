@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniFE55" format="2">
-  <advance width="274"/>
-  <unicode hex="FE55"/>
-  <outline>
-    <component base="colon"/>
-  </outline>
-</glyph>

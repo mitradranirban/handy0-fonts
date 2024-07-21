@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniFE37" format="2">
-  <advance width="581"/>
-  <unicode hex="FE37"/>
-  <outline>
-    <component base="braceleft"/>
-  </outline>
-</glyph>
